@@ -16,7 +16,7 @@ while True:
         feet = int(parts[1])
 
         if action == "A":
-            aircraft.ascend(feet)
+            aircraft.climb(feet)  
         elif action == "D":
             aircraft.descend(feet)
 
